@@ -1,0 +1,5 @@
+We can see from visualized data that time-series are not stationary; for that reason, we applied some techniques we mentioned earlier to make the time-series stationery. One of them was to take difference between values.
+
+After we compute first order difference transformation, data seem stationary, but as we can see on the figure there are some big spikes on the data. That's why we are not really sure whether it is stationary or not. For this reason we computed Auto Correlation Function (ACF) and Partial Auto Correlation Function (PACF) we plotted Auto Correlation Function and Partial Auto Correlation Function to analyze the data better.
+
+After we plotted ACF and PACF for each store, we saw that some stores had big spikes on PACF plots. We plan to apply residual analysis to pick the best ARIMA model, which may work best for all the stores, or try to pick different ARIMA models for each shop.
